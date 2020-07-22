@@ -6,4 +6,8 @@ iOS 日期计算工具
 
 计算两个日期相差多少天
 
+获取某一日期是星期几
+
+将日期转化为距今多久之前
+
 支持cocoapods: pod 'QTDateCalculationHelper'
