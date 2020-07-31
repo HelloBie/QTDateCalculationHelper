@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "QTDateCalculationHelper"
-s.version      = "0.1"
+s.version      = "0.2"
 s.summary      = "QTDateCalculationHelper"
 
 

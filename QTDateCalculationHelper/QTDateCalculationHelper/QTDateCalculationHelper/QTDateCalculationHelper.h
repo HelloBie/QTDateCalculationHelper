@@ -30,9 +30,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSInteger)getWeekNumberWithTime:(NSString *)time;
 
 //日期计算
-+ (NSString *)getTimeAfter1WeekWithBeginTime:(NSString *)beginTime; //返回n周后的日期
-+ (NSString *)getTimeAfter1MonthWithBeginTime:(NSString *)beginTime; //返回n周后的日期
-+ (NSString *)getTimeWithBeginTime:(NSString *)beginTime withMonths:(NSInteger) months; //返回n月后的日期
++ (NSString *)getTimeAfter1WeekWithBeginTime:(NSString *)beginTime; //返回1周后的日期
++ (NSString *)getTimeAfter1MonthWithBeginTime:(NSString *)beginTime; //返回下个月的一号
++ (NSString *)getTimeWithBeginTime:(NSString *)beginTime withMonths:(NSInteger) months; //返回n月后的一号
 + (NSString *)getTimeWithBeginTime:(NSString *)beginTime withYears:(NSInteger) Years; //返回n年后的日期
 + (NSString *)getTimeWithBeginTime:(NSString *)beginTime withDays:(NSInteger) days;    // 返回n天后的日期
 

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "QTDateCalculationHelper.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSString*time = @"20200229 000000";
+    NSLog(@"%@",[QTDateCalculationHelper getTimeWithBeginTime:time withYears:1]);
 }
 
 
